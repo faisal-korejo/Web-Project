@@ -1,0 +1,45 @@
+.contactform{
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+.contactform h1{
+    font-size: 45PX;
+    padding-top: 75px;
+    text-align: center;
+}
+form{
+    padding: 20px 80px;
+    font-size: 23PX;
+}
+.Ema{
+    padding: 17px 0px;
+    
+}
+#emailHelp{
+    padding: 12px 0px;
+    font-size: 8px;
+    color: orange;
+    border-radius: 5px;
+}
+button{
+    /* background-color: orange; */
+    border: 2px white solid;
+    padding: 9px 14px;
+    border-radius: 22px;
+    background-color: orange;
+    color: rgb(10, 8, 8);
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(249, 247, 247);
+}
+#kore{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    
+}

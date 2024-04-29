@@ -1,0 +1,28 @@
+.main{
+    color: white;
+}
+.main h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 34px 23PX;
+    font-size: 40px;
+}
+.blogitem{
+    margin: 10px;
+}
+.blogitem p{
+    margin: 20px;
+}
+.button{
+    padding: 5px 12px;
+    border-radius: 22px;
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 0px 8px;
+}
+button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(249, 247, 247);
+}

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:ital,wght@1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: goldenrod;
+    /* background-color: rgb(74, 73, 73); */
+    width: 15vw;
+    font-family: 'Fira Sans', sans-serif;
+    color: black;
+}
+.sidebar nav{
+    padding: 37px; 
+    height: 82vh; 
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 21px;
+    padding: 33px 0;
+    text-decoration-style: none;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: #000;
+}
+.main{
+    background-color: black;
+    width: 86vw;
+}
+.container{
+    display: flex;
+}
+.InfoContainer{
+    /* background-color: gray; */
+    background-color: goldenrod;
+    color: black;
+    height: 78vh;
+    width: 70vw;
+    margin: 83px auto;
+    /* display: flex; */
+    border-radius: 4%;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    padding: 73px;
+}
+.hello{
+    font-size: 25px;
+    padding: 5px;
+}
+.name{
+    font-size: 40px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.about{
+    font-size: 15px;
+}
+.moreabout{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 10px;
+}
+.aboutme{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 25px 23px;
+}
+.intro h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.intro p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 23px;
+}
+.skillitems{
+    display: flex;
+    align-items: center;
+}
+.skill{
+    width: 150px;
+    height: 8px;
+    border-radius: 12px;
+    background-color: red;
+    border: 2px solid black;
+}
+.hundred{
+    width: 116px;
+    background-color: green;
+}
+.fifty{
+    width: 100px;
+    background-color: rgb(165, 255, 62);
+}
+.t5{
+    width: 80px;
+    background-color: blue;
+}
+
